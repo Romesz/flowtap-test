@@ -1,0 +1,21 @@
+{
+  "name": "flowtap-test",
+  "version": "0.0.1",
+  "description": "flowtap-test",
+  "main": "serve.js",
+  "scripts": {
+    "serve": "node serve.js"
+  },
+  "keywords": [
+    "test"
+  ],
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "dependencies": {
+    "browser-sync": "^2.9.3"
+  },
+  "author": "Romano Firtermaiszter <firtermaiszter.romano@gmail.com",
+  "license": "ISC"
+}

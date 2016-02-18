@@ -1,0 +1,28 @@
+html, body {
+  font-family: 'Roboto', sans-serif;
+}
+  .row {
+    margin: 0;
+  }
+    #boxContainer > div {
+      margin-top: 10px;
+      padding: 5px;
+    }
+      p {
+        font-size: 24px;
+      }
+      .success {
+        background-color: #3c763d;
+      }
+      .info {
+        background-color: #31708f;
+      }
+        span {
+          font-size: 20px;
+        }
+        input[type="text"] {
+          width: 20%;
+        }
+    .label, .label span {
+      font-size: 16px;
+    }
