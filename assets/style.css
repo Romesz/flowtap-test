@@ -5,8 +5,10 @@ html, body {
     margin: 0;
   }
     #boxContainer > div {
+      height: 80px;
       margin-top: 10px;
       padding: 5px;
+      color: #fff;
     }
       p {
         font-size: 24px;
@@ -21,6 +23,7 @@ html, body {
           font-size: 20px;
         }
         input[type="text"] {
+          border-width: 3px;
           width: 20%;
         }
     .label, .label span {

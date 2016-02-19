@@ -1,5 +1,5 @@
 [
   {"label":"label 1", "index":"2", "style": "info"},
-  {"label":"label 2", "index":"0", "style": "success"},
-  {"label":"label 3", "index":"-60", "style": "info"}
+  {"label":"label 2", "index":"30", "style": "success"},
+  {"label":"label 3", "index":"10", "style": "info"}
 ]

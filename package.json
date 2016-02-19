@@ -11,7 +11,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": ""
+    "url": "https://github.com/Romesz/flowtap-test"
   },
   "dependencies": {
     "browser-sync": "^2.9.3"
