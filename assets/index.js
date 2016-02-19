@@ -21,6 +21,9 @@
       }).fail(function() {
         console.error('data.json load failed');
       });
+
+      $('#sortable').sortable();
+      $('#sortable').disableSelection();
     }, 2000);
 
     /**
@@ -29,7 +32,7 @@
     * @params data {Object}
     **/
     function processData(data) {
-      $('#boxContainer').children().remove();
+      $('.boxContainer').children().remove();
       var previousLabels = addLabel(data);
       renderOrederArray = setOrder(data);
       for(var i = 0 ; i < renderOrederArray.length ; i++) {
@@ -96,7 +99,7 @@
       var input = '<input type="text" class="form-control" placeholder="input with some sort value" value="'+ index +'">';
       var spanInput = '<span class="containerLabel">'+ label + '</span>' + input;
       var boxElement = '<div id="'+ index +'" class="'+ style +' form-control">'+ spanInput + '</div>';
-      $('#boxContainer').append(boxElement);
+      $('.boxContainer').append(boxElement);
     }
 
     /**
